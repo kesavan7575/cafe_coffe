@@ -1,0 +1,392 @@
+.box{
+    height: 90px;
+    width: 90px;
+    border: 2px solid rgb(252, 73, 73);
+    background-color: rgb(252, 73, 73);
+    /* align-self: last baseline; */
+    margin-left: auto;
+    position: relative;
+    top: 10px;
+}
+.box h4{
+    color: white;
+    font-size: 7px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 0.5px;
+    position: relative;
+    margin-top: 20px;
+    
+}
+.p p{
+    color: white;
+    font-size: 4px;
+    text-align: center;
+    position: relative;
+    top: -5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.button button{
+    font-size: 3px;
+    text-align: center;
+    border: 0;
+    border-radius: 10px;
+    color: red;
+    /* justify-content: center; */
+    position: absolute;
+    top: 43px;
+    left: 23px;
+    word-spacing: 0.5px;
+}
+.location{
+    color: wheat;
+    font-family:Calibri;
+    font-size: 3px;
+    text-align: center;
+    position: relative;
+    top: 5%;
+    word-spacing: 0.5px;
+}
+.line h3::before{
+    background-color: white;
+    display: block;
+    width: 30px;
+    height: 0.1px;
+    content: "";
+    position: absolute;
+    left:12px ;
+    top: 59px;
+}
+.line h3{
+    color: white;
+    font-size: 3.5px;
+    text-align: center;
+    font-family: Calibri ;
+    padding: 3px;
+}    
+.line h3::after{
+    background-color: white;
+    display: block;
+    width: 30px;
+    height: 0.1px;
+    content: "";
+    position: absolute;
+    right:12px ;
+    top: 59px;
+}    
+.pincode input{
+   
+}
+.pincode input{
+    position:relative;
+    top: -10px;
+    left:26px;
+    
+    font-size: 3px;
+    border:1px solid white;
+    border-color:white;
+    background: transparent;
+    border-radius: 20px;
+    border-width:0.1px
+}
+.pincode ::placeholder{
+    color: white;
+    text-align: center;
+    
+}
+.pincode input{
+    outline: none;
+    caret-color: white;
+    color: white;
+}
+.box1{
+    position: relative;
+    top: -84px;
+    height: 92px;
+    width: 159px;
+    border: 0px solid  black;
+}
+.coffe img{
+    
+    height:94px;
+    width: 160px;
+
+}
+.para p{
+        color:white;
+        font-size: 9px;
+        position: relative;
+        top: -65px;
+        left: 14px;
+        font-family:Arial;
+        text-shadow: 0.5px 0.5px 0.5px black;
+}
+.icon1 ul li{
+    list-style: none;
+    float: left;
+    margin: 2px;
+    /* align-items: center; */
+    /* size: px; */
+}
+.youtube li i{
+    color: red;
+}
+.facebook li i{
+    color: blue;
+}
+.twitter li i{
+    color: aqua;
+    
+}
+.linkedin li i{
+    color:rgb(115, 115, 247)
+}
+.insta li i{
+    color: red;
+
+}
+.icon1 i{
+   position: relative;
+   top: -95px;
+   right: -50px;
+   background-size: cover;
+}
+.icon1 a{
+    font-size: 5;
+}
+
+#hari{
+    width: 100%;
+    height: 0.1px;
+    background-color: rgb(153, 152, 152);
+    position: relative;
+    top: -70px;
+}
+ 
+.qulck h6{
+    color: rgb(153, 152, 152);
+    font-size: 0.5%;
+    font-family: Arial;
+    position: relative;
+    top: -60px;
+    right: 120px
+    
+}
+.qulck li{
+    color: rgb(153, 152, 152);
+    position: relative;
+    top: -58px;
+    right: 120px;
+   list-style: none;
+   font-size: 3px;
+   font-family:Calibri ;
+   line-height: 5px;
+   
+}
+.cafe h6{
+    color: rgb(153, 152, 152);
+    font-size: 0.5%;
+    font-family: Arial;
+    position: relative;
+    top: -60px;
+    left: 10p
+}
+.cafe li{
+    color: rgb(153, 152, 152);
+    /* position: relative; */
+    /* top: -58px; */
+    /* right: 120px; */
+   list-style: none;
+   font-size: 3px;
+   font-family:Calibri ;
+   line-height: 5px;
+}
+/* .button button::after{
+    content: '';
+    height: 0.5px;
+    width: 0%;
+    background-color: black;
+    display: block;
+    transition: .5s ease-in-out;
+    /* color:grey; */
+}
+/* .button button:hover::after{
+    content: '';
+    height: 0.5px;
+    width: 100%;
+    background-color: black;
+    display: block; */
+} */
+.insta :hover{ 
+     background-blend-mode:darken;
+     /* color: blue; */
+     /* text-shadow: 10px blue; */
+              
+}
+.button button:hover{
+    color:gray;
+}
+.left1 h6{
+    color: rgb(156, 154, 154);
+    font-size:5px;
+    position: relative;
+    left: 5px;
+}
+.left1 li{
+    list-style: none;
+    font-size: 4px;
+    line-height: 6px;
+    font-family:Calibri;
+    color: rgb(209, 205, 205);
+    position: relative;
+    top: -10px;
+    left: 5px;
+}
+.left2 h6{
+    font-size:5px;
+    color: rgb(156, 154, 154);
+    position: relative;
+    left: 18px;
+}
+.left2 li{
+    list-style: none;
+    font-size: 4px;
+    line-height: 6px;
+    font-family:Calibri;
+    color: rgb(209, 205, 205);
+    position: relative;
+    left: 18px;
+    top: -10px;
+}
+.left3 h6{
+    font-size:5px;
+    color:rgb(156, 154, 154);
+    position: relative;
+    left: 35px;
+}
+.left3 li{
+    list-style: none;
+    font-size: 4px;
+    line-height: 6px;
+    font-family:Calibri;
+    color: rgb(209, 205, 205);
+    position: relative;
+    left: 35px;
+    top: -10px;
+}
+.left4 h6{
+    font-size:5px;
+    color: rgb(156, 154, 154);
+    position: relative;
+    left: 50px;
+}
+.left4 li{
+    list-style: none;
+    font-size: 4px;
+    line-height: 6px;
+    font-family:Calibri;
+    color: rgb(209, 205, 205);
+    position: relative;
+    top: -10px;
+    left: 50px;
+}
+.left5 h6{
+    font-size:5px;
+    color: rgb(156, 154, 154);
+    position: relative;
+    left: 70px;
+    
+}
+.left5 li{
+    list-style: none;
+    font-size: 4px;
+    line-height: 6px;
+    font-family:Calibri;
+    color: rgb(209, 205, 205);
+    position: relative;
+    top: -10px;
+    left: 70px;
+}
+.footer{
+    /* float: left; */
+    display: inline-flex;
+    /* padding: 10px; */
+    /* margin-inline-start: 10px; */
+    /* margin-inline: 30px; */
+    position: relative;
+    top: -100px;
+}
+#hr{
+    width: 100%;
+    height: 0.1px;
+    background-color:rgb(156, 154, 154);
+    position: relative;
+    top:-100px;
+}
+.ke p{
+     font-size: 3px;
+     color: rgb(156, 154, 154);
+     position: relative;
+     top: -100px;
+}
+.logo img{
+    height: 12px;
+    width: 12px;
+    position: relative;
+    top: -330px;
+    left: 0.5px;
+}
+.menuitem li {
+    list-style: none;
+    font-size: 4px;
+    display: inline;
+    /* color: red; */
+    /* word-spacing: 2px; */
+    /* letter-spacing: 0px; */
+    padding: 1px;
+    position: relative;
+    top:-370px;
+    left: -25px;
+    font-family:Microsoft New Tai Lue;
+}
+.menuitem ul li a::after{
+    content:"";
+    width: 100%;
+    height: 0.5px;
+    left: 0;
+    
+    top: 100%;
+    position: absolute;
+    background-color:rgb(247, 60, 60);
+    transition: 0.3s;
+    transition-timing-function:ease-in-out;
+    transform: scaleX(0);
+}
+.menuitem ul li a:hover::after{
+    transform: scaleX(1);
+}
+.menuitem a{
+    text-decoration:none;
+    color: rgb(247, 60, 60);
+    position: relative;
+}
+.menuicon img{
+    height: 5px;
+    width: 5px;
+    position: relative;
+    top:-403.5px;
+    left:230px ;
+}
+.navebox{
+    height: 2%;
+    width: 115%;
+    /* background-color: black; */
+    border: 8px solid white;
+    position: relative;
+    top: -315px;
+}
+.nav{
+    position:fixed;
+    
+}
